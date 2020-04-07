@@ -1,0 +1,21 @@
+local:
+  log_folder: "./logs"
+  # mongo:
+  #   address: "103.27.201.179"
+  #   port: 27017
+  #   timeout: "30s"
+  #   username: ''
+  #   password: ''
+  #   schema:
+  #     salon: 'vision_recognizer'
+  mongo:
+    address: "10.148.0.2"
+    port: 27017
+    timeout: "30s"
+    username: "recognize_user"
+    password: "-hk;gsoup;wdj"
+    schema:
+      salon: "vision_recognizer"
+
+  directory:
+    root: "./"
